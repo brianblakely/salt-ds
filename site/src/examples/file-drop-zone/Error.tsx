@@ -1,10 +1,10 @@
 import { ReactElement } from "react";
-import { Text } from "@salt-ds/core";
 import {
   FileDropZone,
   FileDropZoneIcon,
   FileDropZoneTrigger,
-} from "@salt-ds/lab";
+  Text,
+} from "@salt-ds/core";
 
 export const Error = (): ReactElement => (
   <FileDropZone style={{ width: 300 }} status="error">

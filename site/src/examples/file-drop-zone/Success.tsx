@@ -3,8 +3,8 @@ import {
   FileDropZone,
   FileDropZoneIcon,
   FileDropZoneTrigger,
-} from "@salt-ds/lab";
-import { Text } from "@salt-ds/core";
+  Text,
+} from "@salt-ds/core";
 
 export const Success = (): ReactElement => (
   <FileDropZone style={{ width: 300 }} status="success">
