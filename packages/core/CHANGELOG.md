@@ -1,5 +1,27 @@
 # @salt-ds/core
 
+## 1.15.0
+
+### Minor Changes
+
+- b2dd61d7: Added Pagination
+
+  Pagination helps users navigate easily between content separated into multiple pages.
+
+  ```tsx
+  <Pagination count={5}>
+    <Paginator />
+  </Pagination>
+  ```
+
+- 907397e2: Added NavigationItem
+
+  NavigationItem allows users to navigate between distinct applications and website pages.
+
+  ```tsx
+  <NavigationItem href="#">Label</NavigationItem>
+  ```
+
 ## 1.14.0
 
 ### Minor Changes
